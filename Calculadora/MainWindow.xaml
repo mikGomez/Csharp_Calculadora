@@ -1,0 +1,34 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#FF00DAFF" Margin="214,26,281,57">
+            <TextBox Background="Blue" x:Name="InputBox" HorizontalAlignment="Left" Margin="21,22,0,0" Width="260" Height="50" TextAlignment="Right" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" VerticalAlignment="Top"/>
+            <Button Background="Gray" Content="7" HorizontalAlignment="Left" Margin="35,86,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="8" HorizontalAlignment="Left" Margin="95,86,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="9" HorizontalAlignment="Left" Margin="155,86,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Orange" Content="+" HorizontalAlignment="Left" Margin="215,86,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Operator_Click" FontWeight="Bold"/>
+
+            <Button Background="Gray" Content="4" HorizontalAlignment="Left" Margin="35,146,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="5" HorizontalAlignment="Left" Margin="95,146,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="6" HorizontalAlignment="Left" Margin="155,146,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Orange" Content="-" HorizontalAlignment="Left" Margin="215,146,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Operator_Click" FontWeight="Bold"/>
+
+            <Button Background="Gray" Content="1" HorizontalAlignment="Left" Margin="35,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="2" HorizontalAlignment="Left" Margin="95,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="3" HorizontalAlignment="Left" Margin="155,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Orange" Content="*" HorizontalAlignment="Left" Margin="215,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Operator_Click" FontWeight="Bold"/>
+
+            <Button Background="Gray" Content="0" HorizontalAlignment="Left" Margin="95,266,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Number_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="." HorizontalAlignment="Left" Margin="35,266,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Decimal_Click" FontWeight="Bold"/>
+            <Button Background="Gray" Content="=" HorizontalAlignment="Left" Margin="155,266,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Calculate_Click" FontWeight="Bold"/>
+            <Button Background="Orange" Content="/" HorizontalAlignment="Left" Margin="215,266,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="Operator_Click" FontWeight="Bold"/>
+
+        </Grid>
+    </Grid>
+</Window>
